@@ -36,10 +36,10 @@ while (true) {
     }
 }
 
-alert("A sua lista de compras:\n" +
-    "Frutas: " + frutas.join(", ") + "\n" +
-    "Legumes: " + legumes.join(", ") + "\n" +
-    "Laticínios: " + laticinios.join(", ") + "\n" +
-    "Doces: " + doces.join(", "));
+alert(`A sua lista de compras:\n 
+    Frutas: ${frutas}\n 
+    Legumes: ${legumes}\n 
+    Laticínios: ${laticinios}\n 
+    Doces: ${doces}\n`);
 
 
